@@ -1,0 +1,919 @@
+[
+    {
+        "num_fc": "A.5",
+        "nom_fc": "Information security policies",
+        "category_control": [
+            {
+            "num_cc": "A.5.1",
+            "nom_cc": "Management direction for information security",
+            "objective": "To provide management direction and support for information security in accordance with business requirements and relevant laws and regulations.",
+            "controls": [
+                { 
+                    "num_cs": "A.5.1.1",
+                    "nom_cs": "Policies for information security",
+                    "control": "A set of policies for information security shall be defined, approved by management, published and communicated to employees and relevant external parties."
+                },
+                { 
+                    "num_cs": "A.5.1.2",
+                    "nom_cs": "Review of the policies for information security",
+                    "control": "The policies for information security shall be reviewed at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness."
+                }]
+            }]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.6",
+        "nom_fc": "Organization of information security",
+        "category_control": [
+            {
+            "num_cc": "A.6.1",
+            "nom_cc": "Internal organization",
+            "objective": "To establish a management framework to initiate and control the implementation and operation of information security within the organization.",
+            "controls": [
+                { 
+                    "num_cs": "A.6.1.1",
+                    "nom_cs": "Information security roles and responsibilies",
+                    "control": "All information security responsibilities shall be defined and allocated."
+                },
+                { 
+                    "num_cs": "A.6.1.2",
+                    "nom_cs": "Segregation of duties",
+                    "control": "The policies for information security shall be reviewed at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness."
+                },
+                { 
+                    "num_cs": "A.6.1.3",
+                    "nom_cs": "Contact with authorities",
+                    "control": "Appropriate contacts with relevant authorities shall be maintained."
+                },
+                { 
+                    "num_cs": "A.6.1.4",
+                    "nom_cs": "Contact with special interest groups",
+                    "control": "Appropriate contacts with special interest groups or other specialist security forums and professionnal associations shall be maintained."
+                },
+                { 
+                    "num_cs": "A.6.1.5",
+                    "nom_cs": "Information security in project management",
+                    "control": "Information security shall be addressed in project management, regardless of the type of the project."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.6.2",
+                "nom_cc": "Mobile devices and teleworking",
+                "objective": "To ensure the security of teleworking and use of mobile devices.",
+                "controls": [
+                    { 
+                        "num_cs": "A.6.2.1",
+                        "nom_cs": "Mobile device policy",
+                        "control": "A policy and supporting security measures shall be adopted to manage the risks introduced by using mobile devices."
+                    },
+                    { 
+                        "num_cs": "A.6.2.2",
+                        "nom_cs": "Teleworking",
+                        "control": "A policy and supporting security measures shall be implemented to protect information accessed, processed or stored at teleworking sites."
+                    }]
+            }
+        ]
+    },
+
+
+
+    {
+        "num_fc": "A.7",
+        "nom_fc": "Human resource security",
+        "category_control": [
+            {
+            "num_cc": "A.7.1",
+            "nom_cc": "Prior to employment",
+            "objective": "To ensure that employees and contractors understand their responsibilities and are suitable for the roles for which they are considered.",
+            "controls": [
+                { 
+                    "num_cs": "A.7.1.1",
+                    "nom_cs": "Screening",
+                    "control": "Background verification checks on all candidates for employment shall be carried out in accordance with relevant laws, regulations and ethics and shall be proportional to the business requirements, the classification of the information to be accessed and the perceived risks."
+                },
+                { 
+                    "num_cs": "A.7.1.2",
+                    "nom_cs": "Terms and conditions of employment",
+                    "control": "The contractual agreements with employees and contractors shall state their and the organization's responsibilities for information security."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.7.2",
+                "nom_cc": "During employment",
+                "objective": "To ensure that employees and contractors are aware of and fulfil their information security responsibilities.",
+                "controls": [
+                    { 
+                        "num_cs": "A.7.2.1",
+                        "nom_cs": "Management responsibilities",
+                        "control": "Management shall require all employees and contractors to apply information security in accordance with the established policies and procedures of the organization."
+                    },
+                    { 
+                        "num_cs": "A.7.2.2",
+                        "nom_cs": "Information security awareness, education and training",
+                        "control": "All employees of the organization and, where relevant, contractors shall receive appropriate awareness education and training and regular updates in organizational policies and procedures, as relevant for their job function."
+                    },
+                    { 
+                        "num_cs": "A.7.2.3",
+                        "nom_cs": "Disciplinary process",
+                        "control": "There shall be a formal and communicated disciplinary process in place to take action against employees who have committed an information security breach."
+                    }]
+            },
+            {
+                "num_cc": "A.7.3",
+                "nom_cc": "Termination and change of employment",
+                "objective": "To protect the organization's interests as part of the process of changing or terminating employment.",
+                "controls": [
+                    { 
+                        "num_cs": "A.7.3.1",
+                        "nom_cs": "Termination or change of employment responsibilities",
+                        "control": "Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, communicated to the employee or contractor and enforced."
+                    }]
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.8",
+        "nom_fc": "Asset management",
+        "category_control": [
+            {
+            "num_cc": "A.8.1",
+            "nom_cc": "Responsibility for assets",
+            "objective": "To identify organizational assets and define appropriate protection responsibilities.",
+            "controls": [
+                { 
+                    "num_cs": "A.8.1.1",
+                    "nom_cs": "Inventory of assets",
+                    "control": "Assets associated with information and information processing facilities shall be identified and an inventory of these assets shall be drawn up and maintained."
+                },
+                { 
+                    "num_cs": "A.8.1.2",
+                    "nom_cs": "Ownership of assets",
+                    "control": "Assets maintained in the inventory shall be owned."
+                },
+                { 
+                    "num_cs": "A.8.1.3",
+                    "nom_cs": "Acceptable use of assets",
+                    "control": "Rules for the acceptable use of information and of assets associated with information and information processing facilities shall be identified, documented and implemented."
+                },
+                { 
+                    "num_cs": "A.8.1.4",
+                    "nom_cs": "Return of assets",
+                    "control": "All employees and external party users shall return all of the organizational assets in their possession upon termination of their employment, contract or agreement."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.8.2",
+                "nom_cc": "Information classification",
+                "objective": "To ensure that information receives an appropriate level of protection in accordance with its importance to the organization.",
+                "controls": [
+                    { 
+                        "num_cs": "A.8.2.1",
+                        "nom_cs": "Classification of information",
+                        "control": "Information shall be classified in terms of legal requirements, value, criticality and sensitivity to unauthorised disclosure or modification."
+                    },
+                    { 
+                        "num_cs": "A.8.2.2",
+                        "nom_cs": "Labelling of information",
+                        "control": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
+                    },
+                    { 
+                        "num_cs": "A.8.2.3",
+                        "nom_cs": "Handling of assets",
+                        "control": "Procedures for handling assets shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
+                    }]
+            },
+            {
+                "num_cc": "A.8.3",
+                "nom_cc": "Media handling",
+                "objective": "To prevent unauthorized disclosure, modification, removal or destruction of information stored on media.",
+                "controls": [
+                    { 
+                        "num_cs": "A.8.3.1",
+                        "nom_cs": "Management of removable media",
+                        "control": "Procedures shall be implemented for the management of removable media in accordance with the classification scheme adopted by the organization"
+                    },
+                    { 
+                        "num_cs": "A.8.3.2",
+                        "nom_cs": "Disposal of media",
+                        "control": "Media shall be disposed of securely when no longer required, using formal procedures"
+                    },
+                    { 
+                        "num_cs": "A.8.3.3",
+                        "nom_cs": "Physical media transfer",
+                        "control": "Media containing information shall be protected against unauthorized access, misuse or corruption during transportation."
+                    }]
+            }
+        ]
+    },
+
+
+
+    {
+        "num_fc": "A.9",
+        "nom_fc": "Access control",
+        "category_control": [
+            {
+            "num_cc": "A.9.1",
+            "nom_cc": "Business requirements of access control",
+            "objective": "To limit access to information and information processing facilities.",
+            "controls": [
+                { 
+                    "num_cs": "A.9.1.1",
+                    "nom_cs": "Access control policy",
+                    "control": "An access control policy shall be established, documented and reviewed based on business and information security requirements."
+                },
+                { 
+                    "num_cs": "A.9.1.2",
+                    "nom_cs": "Access to networks and network services",
+                    "control": "Users shall only be provided with access to the network and network services that they have been specifically authorized to use."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.9.2",
+                "nom_cc": "User access management",
+                "objective": "To ensure authorized user access and to prevent unauthorized access to systems and services.",
+                "controls": [
+                    { 
+                        "num_cs": "A.9.2.1",
+                        "nom_cs": "User registration and de-registration",
+                        "control": "A formal user registration and de-registration process shall be implemented to enable assignment of access rights."
+                    },
+                    { 
+                        "num_cs": "A.9.2.2",
+                        "nom_cs": "User access provisioning",
+                        "control": "A formal user access provisioning process shall be implemented to assign or revoke access rights for all user types to all systems and services."
+                    },
+                    { 
+                        "num_cs": "A.9.2.3",
+                        "nom_cs": "Management of privileged access rights",
+                        "control": "The allocation and use of privileged access rights shall be restricted and controlled."
+                    },
+                    { 
+                        "num_cs": "A.9.2.4",
+                        "nom_cs": "Management of secret authentication information of users",
+                        "control": "The allocation of secret authentication information shall be controlled through a formal management process."
+                    },
+                    { 
+                        "num_cs": "A.9.2.5",
+                        "nom_cs": "Review of user access rights",
+                        "control": "Asset owners shall review users' access rights at regular intervals."
+                    },
+                    { 
+                        "num_cs": "A.9.2.6",
+                        "nom_cs": "Removal or adjustmen of access rights",
+                        "control": "The access rights of all employees and external party users to information and information processing facilities shall be removed upon termination of their employment, contract or agreement, or adjusted upon change."
+                    }]
+            },
+            {
+                "num_cc": "A.9.3",
+                "nom_cc": " User responsibilities",
+                "objective": "To make users accountable for safeguarding their authentication information.",
+                "controls": [
+                    { 
+                        "num_cs": "A.9.3.1",
+                        "nom_cs": "Use of secret authentication information",
+                        "control": "Users shall be required to follow the organization's practices in the use of secret authentication information."
+                    }]
+            },
+            {
+                "num_cc": "A.9.4",
+                "nom_cc": "System and application access control",
+                "objective": "To prevent unauthorized access to systems and applications.",
+                "controls": [
+                    { 
+                        "num_cs": "A.9.4.1",
+                        "nom_cs": "Information access restriction",
+                        "control": "Access to information and application system functions shall be restricted in accordance with the access control policy."
+                    },
+                    { 
+                        "num_cs": "A.9.4.2",
+                        "nom_cs": "Secure log-on procedures",
+                        "control": "Where required by the access control policy, access to systems and applications shall be controlled by a secure log-on procedure."
+                    },
+                    { 
+                        "num_cs": "A.9.4.3",
+                        "nom_cs": "Password management system",
+                        "control": "Password management systems shall be interactive and shall ensure quality passwords."
+                    },
+                    { 
+                        "num_cs": "A.9.2.4",
+                        "nom_cs": "Use of privileged utility programs",
+                        "control": "The use of utility programs that might be capable of overriding system and application controls shall be restricted and tightly controlled."
+                    },
+                    { 
+                        "num_cs": "A.9.4.5",
+                        "nom_cs": "Access control to program source code",
+                        "control": "Access to program source code shall be restricted."
+                    }]
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.10",
+        "nom_fc": "Cryptography",
+        "category_control": [
+            {
+            "num_cc": "A.10.1",
+            "nom_cc": "Cryptographic controls",
+            "objective": "To ensure proper and effective use of cryptography to protect the confidentiality, authenticity and/or integrity of information.",
+            "controls": [
+                { 
+                    "num_cs": "A.10.1.1",
+                    "nom_cs": "Policy on the use of cryptographic controls",
+                    "control": "A policy on the use of cryptographic controls for protection of information shall be developed and implemented."
+                },
+                { 
+                    "num_cs": "A.10.1.2",
+                    "nom_cs": "Key management",
+                    "control": "A policy on the use, protection and lifetime of cryptographic keys shall be developed and implemented through their whole lifecycle."
+                }]
+            }]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.11",
+        "nom_fc": "Physical and environmental security",
+        "category_control": [
+            {
+            "num_cc": "A.11.1",
+            "nom_cc": "Secure areas",
+            "objective": "To prevent unauthorized physical access, damage and interference to the organization's information and information processing facilities",
+            "controls": [
+                { 
+                    "num_cs": "A.11.1.1",
+                    "nom_cs": "Physical security perimeter",
+                    "control": "Security perimeters shall be defined and used to protect areas that contain either sensitive or critical information and information processing facilities."
+                },
+                { 
+                    "num_cs": "A.11.1.2",
+                    "nom_cs": "Physical entry controls",
+                    "control": "Secure areas shall be protected by appropriate entry controls to ensure that only authorized personnel are allowed access."
+                },
+                { 
+                    "num_cs": "A.11.1.3",
+                    "nom_cs": "Securing offices, rooms and facilities",
+                    "control": "Physical security for offices, rooms and facilities shall be designed and applied."
+                },
+                { 
+                    "num_cs": "A.11.1.4",
+                    "nom_cs": "Protecting against external and environmental threats",
+                    "control": "Physical protection against natural disasters, malicious attack or accidents shall be designed and applied."
+                },
+                { 
+                    "num_cs": "A.11.1.5",
+                    "nom_cs": "Working in secure areas",
+                    "control": "Procedures for working in secure areas shall be designed and applied."
+                },
+                { 
+                    "num_cs": "A.11.1.6",
+                    "nom_cs": "Delivery and loading areas",
+                    "control": "Access points such as delivery and loading areas and other points where unauthorized persons could enter the premises shall be controlled and, if possible, isolated from information processing facilities to avoid unauthorized access."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.11.2",
+                "nom_cc": "Equipment",
+                "objective": "To prevent loss, damage, theft or compromise of assets and interruption to the organization's operations.",
+                "controls": [
+                    { 
+                        "num_cs": "A.11.2.1",
+                        "nom_cs": "Equipment siting and protection",
+                        "control": "Equipment shall be sited and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access."
+                    },
+                    { 
+                        "num_cs": "A.11.2.2",
+                        "nom_cs": "Supporting utilities",
+                        "control": "Equipment shall be protected from power failures and other disruptions caused by failures in supporting utilities."
+                    },
+                    { 
+                        "num_cs": "A.11.2.3",
+                        "nom_cs": "Cabling security",
+                        "control": "Power and telecommunications cabling carrying data or supporting information services shall be protected from interception, interference or damage."
+                    },
+                    { 
+                        "num_cs": "A.11.2.4",
+                        "nom_cs": "Equipment maintenance",
+                        "control": "Equipment shall be correctly maintained to ensure its continued availability and integrity."
+                    },
+                    { 
+                        "num_cs": "A.11.2.5",
+                        "nom_cs": "Removal of assets",
+                        "control": "Equipment, information or software shall not be taken off-site without prior authorization."
+                    },
+                    { 
+                        "num_cs": "A.11.2.6",
+                        "nom_cs": "Security of equipment and assets off-premises",
+                        "control": "Security shall be applied to off-site assets taking into account the different risks of working outside the organization's premises."
+                    },
+                    { 
+                        "num_cs": "A.11.2.7",
+                        "nom_cs": "Secure disposal or reuse of equipment",
+                        "control": "All items of equipment containing storage media shall be verified to ensure that any sensitive data and licensed software has been removed or securely overwritten prior to disposal or re-use."
+                    },
+                    { 
+                        "num_cs": "A.11.2.8",
+                        "nom_cs": "Unattended user equipment",
+                        "control": "Users shall ensure that unattended equipment has appropriate protection."
+                    },
+                    { 
+                        "num_cs": "A.11.2.9",
+                        "nom_cs": "Clear desk and clear screen policy",
+                        "control": "A clear desk policy for papers and removable storage media and a clear screen policy for information processing facilities shall be adopted."
+                    }]
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.12",
+        "nom_fc": "Operations security",
+        "category_control": [
+            {
+            "num_cc": "A.12.1",
+            "nom_cc": " Operational procedures and responsibilities",
+            "objective": "To ensure correct and secure operations of information processing facilities.",
+            "controls": [
+                { 
+                    "num_cs": "A.12.1.1",
+                    "nom_cs": "Documented operating procedures",
+                    "control": "Operating procedures shall be documented and made available to all users who need them."
+                },
+                { 
+                    "num_cs": "A.12.1.2",
+                    "nom_cs": "Change management",
+                    "control": "Changes to the organization, business processes, information processing facilities and systems that affect information security shall be controlled."
+                },
+                { 
+                    "num_cs": "A.12.1.3",
+                    "nom_cs": "Capacity management",
+                    "control": "The use of resources shall be monitored, tuned and projections made of future capacity requirements to ensure the required systern performance."
+                },
+                { 
+                    "num_cs": "A.12.1.4",
+                    "nom_cs": "Separation of development, testing and operational environments",
+                    "control": "Development, testing, and operational environments shall be separated to reduce the risks of unauthorized access or changes to the operational environment."
+                }
+                ]
+            },
+            {
+                "num_cc": "A.12.2",
+                "nom_cc": "Protection from malware",
+                "objective": "To ensure that information and information processing facilities are protected against malware.",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.2.1",
+                        "nom_cs": "Controls against malware",
+                        "control": "Detection, prevention and recovery controls to protect against malware shall be implemented, combined with appropriate user awareness."
+                    }
+                    ]
+            },
+            {
+                "num_cc": "A.12.3",
+                "nom_cc": "Backup",
+                "objective": "To protect against loss of data",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.3.1",
+                        "nom_cs": "Information backup",
+                        "control": "Backup copies of information, software and system images shall be taken and tested regularly in accordance with an agreed backup policy."
+                    }]
+            },
+            {
+                "num_cc": "A.12.4",
+                "nom_cc": "Logging and monitoring",
+                "objective": "To record events and generate evidence.",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.4.1",
+                        "nom_cs": "Event logging",
+                        "control": "Event logs recording user activities, exceptions, faults and information security events shall be produced, kept and regularly reviewed."
+                    },
+                    { 
+                        "num_cs": "A.12.4.2",
+                        "nom_cs": "Protection of log in formation",
+                        "control": "Logging facilities and log information shall be protected against tampering and unauthorized access."
+                    },
+                    { 
+                        "num_cs": "A.12.4.3",
+                        "nom_cs": "Administrator and operator logs",
+                        "control": "System administrator and system operator activities shall be logged and the logs protected and regularly reviewed."
+                    },
+                    { 
+                        "num_cs": "A.12.2.4",
+                        "nom_cs": "Clock synchronisation",
+                        "control": "The clocks of all relevant information processing systems within an organization or security domain shall be synchronised to a single reference time source."
+                    }]
+            },
+            {
+                "num_cc": "A.12.5",
+                "nom_cc": "Control of operational software",
+                "objective": "To ensure the integrity of operational systems.",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.5.1",
+                        "nom_cs": "Installation of software on operational systems",
+                        "control": "Procedures shall be implemented to control the installation of software on operational systems."
+                    }]
+            },
+            {
+                "num_cc": "A.12.6",
+                "nom_cc": "Technical vulnerability management",
+                "objective": "To prevent exploitation of technical vulnerabilities.",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.6.1",
+                        "nom_cs": "Management of technical vulnerabilities",
+                        "control": "Information about technical vulnerabilities of information systems being used shall be obtained in a timely fashion, the organization's exposure to such vulnerabilities evaluated and appropriate measures taken to address the associated risk."
+                    },
+                    { 
+                        "num_cs": "A.12.6.2",
+                        "nom_cs": "Restrictions on software installation",
+                        "control": "Rules governing the installation of software by users shall be established and implemented."
+                    }]
+            },
+            {
+                "num_cc": "A.12.7",
+                "nom_cc": "Information systems audit considerations",
+                "objective": " To minimise the impact of audit activities on operational systems.",
+                "controls": [
+                    { 
+                        "num_cs": "A.12.7.1",
+                        "nom_cs": "Information systems audit controls",
+                        "control": "Audit requirements and activities involving verification of operational systems shall be carefully planned and agreed to minimise disruptions to business processes."
+                    }]
+            }
+        ]
+    },
+
+
+
+
+
+    {
+        "num_fc": "A.13",
+        "nom_fc": "Communications security",
+        "category_control": [
+            {
+            "num_cc": "A.13.1",
+            "nom_cc": "Network security management",
+            "objective": "To ensure the protection of information in networks and its supporting information processing facilities.",
+            "controls": [
+                { 
+                    "num_cs": "A.13.1.1",
+                    "nom_cs": "Network controls",
+                    "control": "Networks shall be managed and controlled to protect information in systems and applications."
+                },
+                { 
+                    "num_cs": "A.13.1.2",
+                    "nom_cs": "Security of network services",
+                    "control": "Security mechanisms, service levels and management requirements of all network services shall be identified and included in network services agreements, whether these services are provided in-house or outsourced."
+                },
+                { 
+                    "num_cs": "A.13.1.3",
+                    "nom_cs": "Segregation in networks",
+                    "control": "Groups of information services, users and information systems shall be segregated on networks."
+                }]
+            },
+            {
+                "num_cc": "A.13.2",
+                "nom_cc": "Information transfer",
+                "objective": "To maintain the security of information transferred within an organization and with any external entity.",
+                "controls": [
+                    { 
+                        "num_cs": "A.13.2.1",
+                        "nom_cs": "Information transfer policies and procedures",
+                        "control": "Formal transfer policies, procedures and controls shall be in place to protect the transfer of information through the use of all types of communication facilities."
+                    },
+                    { 
+                        "num_cs": "A.13.2.2",
+                        "nom_cs": "Agreements on information transfer",
+                        "control": "Agreements shall address the secure transfer of business information between the organization and external parties."
+                    },
+                    { 
+                        "num_cs": "A.13.2.3",
+                        "nom_cs": "Electronic messaging",
+                        "control": "Information involved in electronic messaging shall be appropriately protected."
+                    },
+                    { 
+                        "num_cs": "A.13.2.4",
+                        "nom_cs": "Confidentiality or nondisclosure agreements",
+                        "control": "Requirements for confidentiality or non-disclosure agreements reflecting the organization's needs for the protection of information shall be identified, regularly reviewed and documented."
+                    }]
+                }]
+    },
+
+
+
+
+    {
+        "num_fc": "A.14",
+        "nom_fc": "System acquisition, development and maintenance",
+        "category_control": [
+            {
+            "num_cc": "A.14.1",
+            "nom_cc": "Security requirements of information systems",
+            "objective": "To ensure that information security is an integral part of information systems across the entire lifecycle. This also includes the requirements for information systems which provide services over public networks.",
+            "controls": [
+                { 
+                    "num_cs": "A.14.1.1",
+                    "nom_cs": "Information security requirements analysis and specification",
+                    "control": "The information security related requirements shall be included in the requirements for new information systems or enhancements to existing information systems."
+                },
+                { 
+                    "num_cs": "A.14.1.2",
+                    "nom_cs": "Securing application services on public networks",
+                    "control": "Information involved in application services passing over public networks shall be protected from fraudulent activity, contract dispute and unauthorized disclosure and modification."
+                },
+                { 
+                    "num_cs": "A.14.1.3",
+                    "nom_cs": "Protecting application services transactions",
+                    "control": "Information involved in application service transactions shall be protected to prevent incomplete transmission, mis-routing, unauthorized message alteration, unauthorized disclosure, unauthorized message duplication or replay."
+                }]
+            },
+            {
+                "num_cc": "A.14.2",
+                "nom_cc": "Security in development and support processes",
+                "objective": "To ensure that information security is designed and implemented within the development lifecycle of information systems.",
+                "controls": [
+                    { 
+                        "num_cs": "A.14.2.1",
+                        "nom_cs": "Secure development policy",
+                        "control": "Rules for the development of software and systems shall be established and applied to developments within the organization."
+                    },
+                    { 
+                        "num_cs": "A.14.2.2",
+                        "nom_cs": "System change control procedures",
+                        "control": "Changes to systems within the development lifecycle shall be controlled by the use of formal change control procedures."
+                    },
+                    { 
+                        "num_cs": "A.14.2.3",
+                        "nom_cs": "Technical review of applications after operating platform changes",
+                        "control": "When operating platforms are changed, business critical applications shall be reviewed and tested to ensure there is no adverse impact on organizational operations or security."
+                    },
+                    { 
+                        "num_cs": "A.14.2.4",
+                        "nom_cs": "Restrictions on changes to software packages",
+                        "control": "Modifications to software packages shall be discouraged, limited to necessary changes and all changes shall be strictly controlled."
+                    },
+                    { 
+                        "num_cs": "A.14.2.5",
+                        "nom_cs": "Secure system engineering principles",
+                        "control": "Principles for engineering secure systems shall be established documented, maintained and applied to any information system implementation efforts."
+                    },
+                    { 
+                        "num_cs": "A.14.2.6",
+                        "nom_cs": "Secure development environment",
+                        "control": "Organizations shall establish and appropriately protect secure development environments for system development and integration efforts that cover the entire system development lifecycle."
+                    },
+                    { 
+                        "num_cs": "A.14.2.7",
+                        "nom_cs": "Outsourced development",
+                        "control": "The organization shall supervise and monitor the activity of outsourced system development."
+                    },
+                    { 
+                        "num_cs": "A.14.2.8",
+                        "nom_cs": "System security testing",
+                        "control": "Testing of security functionality shall be carried out during development."
+                    },
+                    { 
+                        "num_cs": "A.14.2.9",
+                        "nom_cs": "System acceptance testing",
+                        "control": "Acceptance testing programs and related criteria shall be established for new information systems, upgrades and new versions."
+                    }]
+                },
+                {
+                    "num_cc": "A.14.3",
+                    "nom_cc": "Test data",
+                    "objective": "To ensure the protection of data used for testing.",
+                    "controls": [
+                        { 
+                            "num_cs": "A.14.3.1",
+                            "nom_cs": "Protection of test data",
+                            "control": "Test data shall be selected carefully, protected and controlled."
+                        }]
+                    }]
+    },
+
+
+    {
+        "num_fc": "A.15",
+        "nom_fc": "Supplier relationships",
+        "category_control": [
+            {
+            "num_cc": "A.15.1",
+            "nom_cc": "Information security in supplier relationships",
+            "objective": "To ensure protection of the organization's assets that is accessible by suppliers.",
+            "controls": [
+                { 
+                    "num_cs": "A.15.1.1",
+                    "nom_cs": "Information security policy for supplier relationships",
+                    "control": "Information security requirements for mitigating the risks associated with supplier's access to the organization's assets shall be agreed with the supplier and documented."
+                },
+                { 
+                    "num_cs": "A.15.1.2",
+                    "nom_cs": "Addressing security within supplier agreements",
+                    "control": "All relevant information security requirements shall be established and agreed with each supplier that may access, process, store, communicate, or provide IT infrastructure components for, the organization's information."
+                },
+                { 
+                    "num_cs": "A.15.1.3",
+                    "nom_cs": "Information and communication technology supply chain",
+                    "control": "Agreements with suppliers shall include requirements to address the information security risks associated with information and communications technology services and product supply chain."
+                }]
+            },
+            {
+                "num_cc": "A.15.2",
+                "nom_cc": "Supplier service delivery management",
+                "objective": "To maintain an agreed level of information security and service delivery in line with supplier agreements.",
+                "controls": [
+                    { 
+                        "num_cs": "A.15.2.1",
+                        "nom_cs": "Monitoring and review of supplier services",
+                        "control": "Organizations shall regularly monitor, review and audit supplier service delivery."
+                    },
+                    { 
+                        "num_cs": "A.15.2.2",
+                        "nom_cs": "Managing changes to supplier services",
+                        "control": "Changes to the provision of services by suppliers, including maintaining and improving existing information security policies, procedures and controls, shall be managed, taking account of the criticality of business information, systems and processes involved and re-assessment of risks."
+                    }]
+                }]
+        },
+
+
+
+        {
+            "num_fc": "A.16",
+            "nom_fc": "Information security incident management",
+            "category_control": [
+                {
+                "num_cc": "A.16.1",
+                "nom_cc": "Management of information security incidents and improvements",
+                "objective": "To ensure a consistent and effective approach to the management of information security incidents, including communication on security events and weaknesses.",
+                "controls": [
+                    { 
+                        "num_cs": "A.16.1.1",
+                        "nom_cs": "Responsibilities and procedures",
+                        "control": "Management responsibilities and procedures shall be established to ensure a quick, effective and orderly response to information security incidents."
+                    },
+                    { 
+                        "num_cs": "A.16.1.2",
+                        "nom_cs": "Reporting information security events",
+                        "control": "Information security events shall be reported through appropriate management channels as quickly as possible."
+                    },
+                    { 
+                        "num_cs": "A.16.1.3",
+                        "nom_cs": "Reporting information security weaknesses",
+                        "control": "Employees and contractors using the organization's information systems and services shall be required to note and report any observed or suspected information security weaknesses in systerns or services."
+                    },{ 
+                        "num_cs": "A.16.1.4",
+                        "nom_cs": "Assessment of and decision on information security events",
+                        "control": "Information security events shall be assessed and it shall be decided if they are to be classified as information security incidents."
+                    },
+                    { 
+                        "num_cs": "A.16.1.5",
+                        "nom_cs": "Response to information security incidents",
+                        "control": "Information security incidents shall be responded to in accordance with the documented procedures."
+                    },
+                    { 
+                        "num_cs": "A.16.1.6",
+                        "nom_cs": "Learning from information security incidents",
+                        "control": "Knowledge gained from analysing and resolving information security incidents shall be used to reduce the likelihood or impact of future incidents."
+                    },
+                    { 
+                        "num_cs": "A.16.1.7",
+                        "nom_cs": "Collection of evidence",
+                        "control": "The organization shall define and apply procedures for the identification, collection, acquisition and preservation of information, which can serve as evidence."
+                    }]
+                }]
+        },
+
+
+
+
+        {
+            "num_fc": "A.17",
+            "nom_fc": "Information security aspects of business continuity management",
+            "category_control": [
+                {
+                "num_cc": "A.17.1",
+                "nom_cc": "Information security continuity",
+                "objective": "Information security continuity shall be embedded in the organization's business continuity management systems.",
+                "controls": [
+                    { 
+                        "num_cs": "A.17.1.1",
+                        "nom_cs": "Planning information security continuity",
+                        "control": "The organization shall determine its requirements for information security and the continuity of information security management in adverse situations, e.g. during a crisis or disaster"
+                    },
+                    { 
+                        "num_cs": "A.17.1.2",
+                        "nom_cs": "Implementing information security continuity",
+                        "control": "The organization shall establish, document, implement and maintain processes, procedures and controls to ensure the required level of continuity for information security during an adverse situation."
+                    },
+                    { 
+                        "num_cs": "A.17.1.3",
+                        "nom_cs": "Verify, review and evaluate information security continuity",
+                        "control": "The organization shall verify the established and implemented information security continuity controls at regular intervals in order to ensure that they are valid and effective during adverse situations."
+                    }]
+                },
+                {
+                    "num_cc": "A.17.2",
+                    "nom_cc": "Redundancies",
+                    "objective": "To ensure availability of information processing facilities.",
+                    "controls": [
+                        { 
+                            "num_cs": "A.17.2.1",
+                            "nom_cs": "Availability of information processing facilities",
+                            "control": "Information processing facilities shall be implemented with redundancy sufficient to meet availability requirements."
+                        }]
+                    }]
+        },
+
+
+
+
+
+        {
+            "num_fc": "A.18",
+            "nom_fc": "Compliance",
+            "category_control": [
+                {
+                "num_cc": "A.18.1",
+                "nom_cc": " Compliance with legal and contractual requirements",
+                "objective": "To avoid breaches of legal, statutory, regulatory or contractual obligations related to in formation security and of any security requirements.",
+                "controls": [
+                    { 
+                        "num_cs": "A.18.1.1",
+                        "nom_cs": "Identification of applicable legislation and contractual requirements",
+                        "control": "All relevant legislative statutory, regulatory, contractual requirements and the organization's approach to meet these requirements shall be explicitly identified, documented and kept up to date for each information system and the organization."
+                    },
+                    { 
+                        "num_cs": "A.18.1.2",
+                        "nom_cs": "Intellectual property rights",
+                        "control": "Appropriate procedures shall be implemented to ensure compliance with legislative, regulatory and contractual requirements related to intellectual property rights and use of proprietary software products."
+                    },
+                    { 
+                        "num_cs": "A.18.1.3",
+                        "nom_cs": "Protection of records",
+                        "control": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release, in accordance with legislatory, regulatory, contractual and business requirements."
+                    },
+                    { 
+                        "num_cs": "A.18.1.4",
+                        "nom_cs": "Privacy and protection of personally identifiable information",
+                        "control": "Privacy and protection of personally identifiable information shall be ensured as required in relevant legislation and regulation where applicable."
+                    },
+                    { 
+                        "num_cs": "A.18.1.5",
+                        "nom_cs": "Regulation of cryptographic controls",
+                        "control": "Cryptographic controls shall be used in compliance with all relevant agreements, legislation and regulations."
+                    }]
+                },
+                {
+                    "num_cc": "A.18.2",
+                    "nom_cc": "Information security reviews",
+                    "objective": "To ensure that information security is implemented and operated in accordance with the organizational policies and procedures",
+                    "controls": [
+                        { 
+                            "num_cs": "A.18.2.1",
+                            "nom_cs": "Independent review of information security",
+                            "control": "The organization's approach to managing information security and its implementation (i.e. control objectives, controls, policies, processes and procedures for information security) shall be reviewed independently at planned intervals or when significant changes occur."
+                        },
+                        { 
+                            "num_cs": "A.18.2.2",
+                            "nom_cs": "Compliance with security policies and standards",
+                            "control": "Managers shall regularly review the compliance of information processing and procedures within their area of responsibility with the appropriate security policies, standards and any other security requirements."
+                        },
+                        { 
+                            "num_cs": "A.18.2.3",
+                            "nom_cs": "Technical compliance review",
+                            "control": "Information systems shall be regularly reviewed for compliance with the organization's information security policies and standards."
+                        }]
+                    }]
+        }
+    
+]
